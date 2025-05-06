@@ -106,7 +106,17 @@ This project surveys the field of **AI image and video generation**, covering fo
 ### 1️⃣ Foundational Models and Architectures
 | **Title** | **Authors** |
 |-----------|-------------|
-| [**Generative Adversarial Nets**](https://arxiv.org/abs/1406.2661) | Ian Goodfellow et al. |
+| [**Generative Adversarial Nets**](https://arxiv.org/abs/1406.2661) | Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio |
+| [**Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks**](https://arxiv.org/abs/1511.06434) | Alec Radford, Luke Metz, Soumith Chintala |
+| [**Wasserstein GAN**](https://arxiv.org/abs/1701.07875) | Martin Arjovsky, Soumith Chintala, Léon Bottou |
+| [**A Style-Based Generator Architecture for Generative Adversarial Networks**](https://arxiv.org/abs/1812.04948) | Tero Karras, Samuli Laine, Timo Aila |
+| [**Analyzing and Improving the Image Quality of StyleGAN**](https://arxiv.org/abs/1912.04958) | Tero Karras, Samuli Laine, Miika Aittala, Janne Hellsten, Jaakko Lehtinen, Timo Aila |
+| [**Auto-Encoding Variational Bayes**](https://arxiv.org/abs/1312.6114) | Diederik P Kingma, Max Welling |
+| [**Stochastic Backpropagation and Approximate Inference in Deep Generative Models**](https://arxiv.org/abs/1401.4082) | Danilo Jimenez Rezende, Shakir Mohamed, Daan Wierstra |
+| [**Denoising Diffusion Probabilistic Models**](https://arxiv.org/abs/2006.11239) | Jonathan Ho, Ajay Jain, Pieter Abbeel |
+| [**Score-Based Generative Modeling through Stochastic Differential Equations**](https://arxiv.org/abs/2011.13456) | Yang Song, Jascha Sohl-Dickstein, Diederik P. Kingma, Abhishek Kumar, Stefano Ermon, Ben Poole |
+| [**High-Resolution Image Synthesis with Latent Diffusion Models**](https://arxiv.org/abs/2112.10752) | Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, Björn Ommer |
+
 
 ### 2️⃣ Text-to-Image Generation
 
