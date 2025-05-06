@@ -102,8 +102,25 @@ This project surveys the field of **AI image and video generation**, covering fo
 
 ## 📚 References
 
-A curated bibliography of 50+ papers will be maintained [here](docs/references.md)  
-_Add links, BibTeX entries, and categories such as "Diffusion Models", "Video Synthesis", etc._
+
+### 1️⃣ Foundational Models and Architectures
+| **Title** | **Authors** |
+|-----------|-------------|
+| [**Generative Adversarial Nets**](https://arxiv.org/abs/1406.2661) | Ian Goodfellow et al. |
+
+### 2️⃣ Text-to-Image Generation
+
+### 2️⃣ Image-to-Image and Conditional Generation
+
+### 4️⃣ Text-to-Video and Video Generation
+
+### 5️⃣ Technical Innovations & Training Techniques
+
+### 6️⃣ Applications and Tools
+
+### 7️⃣ Evaluation and Ethics
+
+### 8️⃣ Future Directions and Multimodal Trends
 
 ---
 
