@@ -5,7 +5,7 @@
 *University of Rochester*
 
 <h5 align="center">  
- <strong>[Paper (coming soon)](#)</strong> | <strong>[Project Page]([#](https://github.com/Brendanmcco/ai-image-video-generation-survey.git))</strong>
+ <strong>[Paper (coming soon)](#)</strong> | <strong>**[Project Page](https://github.com/yunlong10/Awesome-AI4Animation)**</strong>
 </h5>
 
 ---
