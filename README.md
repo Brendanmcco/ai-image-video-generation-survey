@@ -107,14 +107,6 @@ _Add links, BibTeX entries, and categories such as "Diffusion Models", "Video Sy
 
 ---
 
-## 💻 Contributing
-
-Want to help expand the repo?  
-- Add new models or papers
-- Suggest examples, figures, or comparisons
-- Open an issue or PR
-
----
 
 ## 🧠 Citation
 
