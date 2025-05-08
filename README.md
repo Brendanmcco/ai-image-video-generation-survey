@@ -158,10 +158,40 @@ This project surveys the field of **AI image and video generation**, covering fo
 | [**CameraCtrl: Enabling Camera Control for Text-to-Video Generation**](https://arxiv.org/abs/2404.02101) | Hao He, Yinghao Xu, Yuwei Guo, Gordon Wetzstein, Bo Dai, Hongsheng Li, Ceyuan Yang |
 
 ### 5️⃣ Technical Innovations & Training Techniques
+| **Title** | **Authors** |
+|-----------|-------------|
+| [**Improved Techniques for Training Score-Based Generative Models**](https://arxiv.org/abs/2006.09011) | Yang Song, Stefano Ermon |
+| [**Classifier-Free Diffusion Guidance**](https://openreview.net/pdf?id=qw8AKxfYbI) | Jonathan Ho, Tim Salimans |
+| [**Diffusion Models Beat GANs on Image Synthesis**](https://arxiv.org/abs/2105.05233) | Prafulla Dhariwal, Alex Nichol |
+| [**Progressive Distillation for Fast Sampling of Diffusion Models**](https://arxiv.org/abs/2202.00512) | Tim Salimans, Jonathan Ho |
+| [**LoRA: Low-Rank Adaptation of Large Language Models**](https://arxiv.org/abs/2106.09685) | Edward J. Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Weizhu Chen |
+| [**DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation**](https://arxiv.org/abs/2208.12242) | Nataniel Ruiz, Yuanzhen Li, Varun Jampani, Yael Pritch, Michael Rubinstein, Kfir Aberman |
+| [**StyleGAN-XL: Scaling StyleGAN to Large Diverse Datasets**](https://arxiv.org/abs/2202.00273) | Axel Sauer, Katja Schwarz, Andreas Geiger |
+| [**High-Resolution Image Synthesis with Latent Diffusion Models**](https://arxiv.org/abs/2112.10752) | Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, Björn Ommer |
+| [**Score-Based Generative Modeling through Stochastic Differential Equations**](https://arxiv.org/abs/2011.13456) | Yang Song, Jascha Sohl-Dickstein, Diederik P. Kingma, Abhishek Kumar, Stefano Ermon, Ben Poole |
 
 ### 6️⃣ Applications and Tools
+| **Title** | **Authors** |
+|----------|-------------|
+| [**DiffSensei: Bridging Multi-Modal LLMs and Diffusion Models for Customized Manga Generation**](https://arxiv.org/abs/2412.07589) | Jianzong Wu, Chao Tang, Jingbo Wang, Yanhong Zeng, Xiangtai Li, Yunhai Tong |
+| [**Manga Generation via Layout-Controllable Diffusion**](https://arxiv.org/abs/2412.19303) | Siyu Chen, Dengjie Li, Zenghao Bao, Yao Zhou, Lingfeng Tan, Yujie Zhong, Zheng Zhao |
+| [**PromptFix: You Prompt and We Fix the Photo**](https://arxiv.org/abs/2405.16785) | Y. Yu, Z. Zeng, H. Hua, J. Fu, J. Luo |
+| [**AIGS: AI-generated Images as Data Sources for Visual Tasks**](https://arxiv.org/abs/2310.01830) | Yongsheng Yu, Ziyun Zeng, Hang Hua, Jianlong Fu, Jiebo Luo |
+| [**Animate Anyone: Controllable Image-to-Video Synthesis for Character Animation**](https://arxiv.org/abs/2311.17117) | Li Hu, Xin Gao, Peng Zhang, Ke Sun, Bang Zhang, Liefeng Bo |
+| [**Anisora: Exploring the Frontiers of Animation Video Generation in the Sora Era**](https://arxiv.org/abs/2412.10255) | Yudong Jiang, Baohan Xu, Siqian Yang, Mingyu Yin, Jing Liu, Chao Xu, Siqi Wang, Yidi Wu, Bingwen Zhu, Xinwen Zhang, Xingyu Zheng, Jixuan Xu, Yue Zhang, Jinlong Hou, Huyang Sun |
 
 ### 7️⃣ Evaluation and Ethics
+| Title | Authors |
+|-------|---------|
+| [AI-Generated Images as Data Sources: The Dawn of Synthetic Era](https://arxiv.org/abs/2310.15150) | Zuhao Yang, Fangneng Zhan, Kunhao Liu, Muyu Xu, Shijian Lu |
+| [Detection and Generalization in an Online Setting](https://arxiv.org/abs/2310.15150) | David C. Epstein, Ishan Jain, Oliver Wang, Richard Zhang |
+| [Evaluation Metrics for Video Diffusion Models](https://arxiv.org/abs/2310.10647) | Tianhao Wang et al. |
+| [Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification](https://proceedings.mlr.press/v81/buolamwini18a.html) | Joy Buolamwini, Timnit Gebru |
+| [DALL-Eval: Probing the Reasoning Skills and Social Biases of Text-to-Image Transformers](https://arxiv.org/abs/2202.04053) | Jaemin Cho, Abhay Zala, Mohit Bansal |
+| [HYPE: A Benchmark for Human Eye Perceptual Evaluation of Generative Models](https://arxiv.org/abs/1904.01121) | Samira Ebrahimi Kahou et al. |
+| [Semantic Object Accuracy for Generative Text-to-Image Synthesis](https://arxiv.org/abs/2012.04603) | Tobias Hinz, Stefan Heinrich, Stefan Wermter |
+| [FID: GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium](https://arxiv.org/abs/1706.08500) | Martin Heusel, Hubert Ramsauer, Thomas Unterthiner, Bernhard Nessler, Sepp Hochreiter |
+| [CLER: Class-centered Recognition Score](https://arxiv.org/abs/2403.07357) | Yihang Li et al. |
 
 ### 8️⃣ Future Directions and Multimodal Trends
 
