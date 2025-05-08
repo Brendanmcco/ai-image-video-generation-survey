@@ -181,19 +181,37 @@ This project surveys the field of **AI image and video generation**, covering fo
 | [**Anisora: Exploring the Frontiers of Animation Video Generation in the Sora Era**](https://arxiv.org/abs/2412.10255) | Yudong Jiang, Baohan Xu, Siqian Yang, Mingyu Yin, Jing Liu, Chao Xu, Siqi Wang, Yidi Wu, Bingwen Zhu, Xinwen Zhang, Xingyu Zheng, Jixuan Xu, Yue Zhang, Jinlong Hou, Huyang Sun |
 
 ### 7️⃣ Evaluation and Ethics
-| Title | Authors |
-|-------|---------|
-| [AI-Generated Images as Data Sources: The Dawn of Synthetic Era](https://arxiv.org/abs/2310.15150) | Zuhao Yang, Fangneng Zhan, Kunhao Liu, Muyu Xu, Shijian Lu |
-| [Detection and Generalization in an Online Setting](https://arxiv.org/abs/2310.15150) | David C. Epstein, Ishan Jain, Oliver Wang, Richard Zhang |
-| [Evaluation Metrics for Video Diffusion Models](https://arxiv.org/abs/2310.10647) | Tianhao Wang et al. |
-| [Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification](https://proceedings.mlr.press/v81/buolamwini18a.html) | Joy Buolamwini, Timnit Gebru |
-| [DALL-Eval: Probing the Reasoning Skills and Social Biases of Text-to-Image Transformers](https://arxiv.org/abs/2202.04053) | Jaemin Cho, Abhay Zala, Mohit Bansal |
-| [HYPE: A Benchmark for Human Eye Perceptual Evaluation of Generative Models](https://arxiv.org/abs/1904.01121) | Samira Ebrahimi Kahou et al. |
-| [Semantic Object Accuracy for Generative Text-to-Image Synthesis](https://arxiv.org/abs/2012.04603) | Tobias Hinz, Stefan Heinrich, Stefan Wermter |
-| [FID: GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium](https://arxiv.org/abs/1706.08500) | Martin Heusel, Hubert Ramsauer, Thomas Unterthiner, Bernhard Nessler, Sepp Hochreiter |
-| [CLER: Class-centered Recognition Score](https://arxiv.org/abs/2403.07357) | Yihang Li et al. |
+#### Evaluation Metrics and Benchmarks
+
+| **Title** | **Authors** |
+|-----------|-------------|
+| [**Evaluating Diffusion Models**](https://huggingface.co/docs/diffusers/en/conceptual/evaluation) | Hugging Face Team |
+| [**GenAI-Bench: Evaluating and Improving Compositional Text-to-Visual Generation**](https://arxiv.org/abs/2406.13743) | Baiqi Li, Zhiqiu Lin, Deepak Pathak, Jiayao Li, Yixin Fei, Kewen Wu, Tiffany Ling, Xide Xia, Pengchuan Zhang, Graham Neubig, Deva Ramanan |
+| [**VBench: Comprehensive Benchmark Suite for Video Generative Models**](https://vchitect.github.io/VBench-project/) | VBench Team |
+| [**EvalCrafter: Benchmarking and Evaluating Large Video Generation Models**](https://openaccess.thecvf.com/content/CVPR2024/papers/Liu_EvalCrafter_Benchmarking_and_Evaluating_Large_Video_Generation_Models_CVPR_2024_paper.pdf) | Yaofang Liu, Xiaodong Cun, Xuebo Liu, Xintao Wang, Yong Zhang, Haoxin Chen, Yang Liu, Tieyong Zeng, Raymond Chan, Ying Shan, Tencent AI Lab, City University of Hong Kong, University of Macau, The Chinese University of Hong Kong |
+| [**CLIP Score vs FID Pareto Curves**](https://wandb.ai/dalle-mini/dalle-mini/reports/CLIP-score-vs-FID-pareto-curves--VmlldzoyMDYyNTAy) | W&B Team |
+
+#### Ethical Considerations
+
+| **Title** | **Authors** |
+|-----------|-------------|
+| [**Exploring the Ethical Implications of Generative AI: Bias, Deepfakes, and Misinformation**](https://aimresearch.co/council-posts/exploring-the-ethical-implications-of-generative-ai-bias-deepfakes-and-misinformation) | AIM Research Council |
+| [**AI Image Generation and Ethical Considerations**](https://uxtbe.medium.com/ai-image-generation-and-ethical-considerations-4b81dfc0b1a9) | Torresburriel Estudio |
+| [**The Ethics of AI Art**](https://mediaengagement.org/research/the-ethics-of-ai-art/) | Center for Media Engagement |
+| [**Generative AI Takes Stereotypes and Bias From Bad to Worse**](https://www.bloomberg.com/graphics/2023-generative-ai-bias/) | Bloomberg Graphics Team |
+| [**OpenAI's Sora Is Plagued by Sexist, Racist, and Ableist Biases**](https://www.wired.com/story/openai-sora-video-generator-bias) | WIRED Staff (2025) |
 
 ### 8️⃣ Future Directions and Multimodal Trends
+| **Title** | **Authors** |
+|-----------|-------------|
+| [**Any-to-Any Generation via Composable Diffusion (CoDi)**](https://arxiv.org/abs/2305.11846) | Zineng Tang, Ziyi Yang, Chenguang Zhu, Michael Zeng, Mohit Bansal |
+| [**CoDi-2: In-Context, Interleaved, and Interactive Any-to-Any Generation**](https://arxiv.org/abs/2311.18775) | Zineng Tang, Ziyi Yang, Mahmoud Khademi, Yang Liu, Chenguang Zhu, Mohit Bansal |
+| [**NExT-GPT: Any-to-Any Multimodal LLM**](https://arxiv.org/abs/2309.05519) | Shengqiong Wu, Hao Fei, Leigang Qu, Wei Ji, Tat-Seng Chua |
+| [**Chameleon: Mixed-Modal Early-Fusion Foundation Models**](https://arxiv.org/abs/2405.09818) | Chameleon Team |
+| [**Transfusion: Predict the Next Token and Diffuse Images with One Multi-Modal Model**](https://arxiv.org/abs/2408.11039) | Chunting Zhou, Lili Yu, Arun Babu, Kushal Tirumala, Michihiro Yasunaga, Leonid Shamis, Jacob Kahn, Xuezhe Ma, Luke Zettlemoyer, Omer Levy |
+| [**OpenLEAF: Open-Domain Interleaved Image-Text Generation and Evaluation**](https://arxiv.org/abs/2310.07749) | Jie An, Zhengyuan Yang, Linjie Li, Jianfeng Wang, Kevin Lin, Zicheng Liu, Lijuan Wang, Jiebo Luo |
+| [**A Survey on Multimodal Large Language Models**](https://arxiv.org/abs/2306.13549) | Shukang Yin, Chaoyou Fu, Sirui Zhao, Ke Li, Xing Sun, Tong Xu, Enhong Chen |
+| [**A Survey on Video Diffusion Models**](https://arxiv.org/abs/2310.10647) | Zhen Xing, Qijun Feng, Haoran Chen, Qi Dai, Han Hu, Hang Xu, Zuxuan Wu, Yu-Gang Jiang |
 
 ---
 
