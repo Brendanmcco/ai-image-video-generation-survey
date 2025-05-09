@@ -1,6 +1,6 @@
 # ai-image-video-generation-survey
 
-## 🎨 AI Image and Video Generation: A Survey of Models, Methods, and Challenges
+## 🎨 Survey of AI Image and Video Generation Models:Foundations, Taxonomy, and Societal Impact
 
 > *Brendan McCollum*  
 > University of Rochester
