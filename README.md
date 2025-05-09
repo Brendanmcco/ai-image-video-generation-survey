@@ -1,102 +1,115 @@
 # ai-image-video-generation-survey
-### 🔥🔥🔥 [**AI Image and Video Generation: A Survey of Models, Methods, and Challenges**](#)
 
-> *[Brendan McCollum](#)*  
-*University of Rochester*
+## 🎨 AI Image and Video Generation: A Survey of Models, Methods, and Challenges
 
-<h5 align="center">  
- <strong>[Paper (coming soon)](#)</strong> | <strong>**[Project Page](https://github.com/Brendanmcco/ai-image-video-generation-survey.git)**</strong>
+> *Brendan McCollum*  
+> University of Rochester
+
+<h5 align="center">
+  <strong>[📄 Paper (coming soon)](#)</strong> | <strong>[🌐 Project Page](https://github.com/Brendanmcco/ai-image-video-generation-survey.git)</strong>
 </h5>
 
 ---
 
-## 📖 Table of Contents
+## 🔍 Overview
 
-- [🧠 Introduction](#-introduction)
-- [🔧 Preliminaries and Foundations](#-preliminaries-and-foundations)
-- [🌐 Taxonomy of Generative Models](#-taxonomy-of-generative-models)
-- [📈 Key Dimensions of Progress](#-key-dimensions-of-progress)
-- [🌍 Societal Impacts and Open Problems](#-societal-impacts-and-open-problems)
+This repository accompanies our comprehensive survey on AI-based **image and video generation**, covering the evolution of generative models from GANs to diffusion models and multimodal LLMs. The paper organizes recent advances across five core dimensions:
+
+- Foundational models and generative mechanisms
+- A taxonomy across text-to-image, image-to-image, and text-to-video pipelines
+- Key architectural and training innovations
+- Applications, tools, and evaluation frameworks
+- Societal implications and ethical challenges
+
+Rather than a linear timeline, this survey emphasizes **conceptual transitions**, **technical connections across modalities**, and **emerging trends in multimodal generation**.
+
+---
+
+## 📚 Table of Contents
+
+- [🧠 Introduction](#-overview)
+- [🔧 Preliminaries & Core Concepts](#-preliminaries--core-concepts)
+- [📊 Taxonomy of Generative Models](#-taxonomy-of-generative-models)
+- [⚙️ Technical Innovations](#️-technical-innovations)
+- [🛠️ Applications & Evaluation](#-applications--evaluation)
+- [🌐 Societal Impact & Future Trends](#-societal-impact--future-trends)
 - [📚 References](#-references)
+- [📌 Citation](#-citation)
 
 ---
 
-## 🧠 Introduction
+## 🔧 Preliminaries & Core Concepts
 
-This project surveys the field of **AI image and video generation**, covering foundational models, technical progress, and societal challenges. Rather than just presenting a timeline, it focuses on key methodological shifts, enabling technologies, and the growing role of these models in real-world applications.
+This section reviews fundamental ideas that underpin generative image and video modeling.
 
----
-
-## 🔧 Preliminaries and Foundations
-
-| Concept            | Description                                                             |
-|-------------------|-------------------------------------------------------------------------|
-| Generative Models | Learn data distributions to synthesize new examples                     |
-| Latent Space      | Compressed intermediate representation used for sampling/editing        |
-| Key Techniques    | GANs, VAEs, Diffusion Models, Score-based Methods                       |
-| Modality Scope    | Static image generation vs. temporally coherent video generation        |
-| Datasets          | LAION-5B, WebVid-10M, ImageNet, UCF-101, MSR-VTT, etc.                  |
+| Concept         | Description                                                  |
+|----------------|--------------------------------------------------------------|
+| Generative Models | Learn data distributions to synthesize new content         |
+| Latent Spaces   | Compressed intermediate representations for generation/editing |
+| Model Families  | GANs, VAEs, Diffusion Models, Score-Based Methods            |
+| Modalities      | Static image vs. temporally coherent video synthesis         |
+| Datasets        | LAION-5B, WebVid-10M, ImageNet, MSR-VTT, UCF-101, etc.       |
 
 ---
 
-## 🌐 Taxonomy of Generative Models
+## 📊 Taxonomy of Generative Models
 
-### 🔹 By Output Type
-- **Image Generation**
-- **Video Generation**
-- **Multimodal Generation** (Text-to-Image, Text-to-Video, etc.)
+We categorize modern models by **output type** and **architectural strategy**, spanning:
 
-### 🔹 By Modeling Approach
+- **Text-to-Image:** DALL·E 2, GLIDE, Stable Diffusion  
+- **Image-to-Image:** ControlNet, InstructPix2Pix, RePaint  
+- **Text-to-Video:** VideoCrafter2, Make-A-Video, Emu  
 
-| Type              | Examples                                                     |
-|-------------------|--------------------------------------------------------------|
-| Autoregressive     | PixelCNN, VideoGPT, MaskGIT                                  |
-| GANs               | DCGAN, StyleGAN, StyleGAN2, StyleGAN-T                       |
-| VAEs               | VQ-VAE, VQ-GAN                                                |
-| Diffusion Models   | DDPM, Stable Diffusion, SVD, Imagen Video                    |
-| Score-based        | Score SDE, EDM                                               |
-| Hybrid/Multimodal  | DALL·E 2, Parti, unCLIP, Gen-1, Pika                         |
-| 3D/Neural Fields   | GIRAFFE, DreamFusion, Sora                                   |
-
----
-
-## 📈 Key Dimensions of Progress
-
-### 🎨 Fidelity & Realism
-- Metrics: FID, Inception Score, CLIPScore
-- Breakthroughs: Progressive GANs, Cascaded Diffusion, Super-Resolution
-
-### 🎛️ Controllability
-- Prompt tuning, conditioning, layout control, keyframe guidance
-
-### 🎞️ Temporal & Physical Consistency
-- Consistency in object motion, scene layout, and lighting across frames
-
-### ⚡ Efficiency & Scalability
-- Fast samplers: DDIM, DiT, LCM  
-- Latent diffusion for lower compute cost
-
-### 🌍 Generalization
-- Cross-domain and zero-shot generation
-
-### 🧪 Evaluation Challenges
-- Lack of standardized metrics for video
-- Human preference studies vs. automated scores
-
-### 🧰 Applications
-- Creative media, data augmentation, virtual environments, simulation
+| Type               | Examples                                                   |
+|--------------------|------------------------------------------------------------|
+| Autoregressive      | PixelCNN, VideoGPT                                         |
+| GAN-based           | DCGAN, StyleGAN2, AttnGAN                                  |
+| Variational (VAEs)  | VQ-VAE, VQ-GAN                                              |
+| Diffusion Models    | DDPM, Stable Diffusion, Imagen, SVD                       |
+| Score-Based         | Score SDE, EDM                                             |
+| Hybrid/Multimodal   | DALL·E 2, Gen-2, Pika, Runway Gen-3                        |
+| Neural Fields / 3D  | GIRAFFE, DreamFusion, Sora                                 |
 
 ---
 
-## 🌍 Societal Impacts and Open Problems
+## ⚙️ Technical Innovations
 
-| Topic             | Description                                                               |
-|------------------|---------------------------------------------------------------------------|
-| Detection         | AI image detection tools (e.g., image forensics, watermarking)           |
-| Bias & Representation | Systematic demographic imbalances in training data                  |
-| Misinformation    | Deepfakes, synthetic propaganda, false visual narratives                |
-| Copyright & Ownership | Unclear legal status of outputs and training data                  |
-| Research Frontiers| Long videos, scene composition, real-world interaction, simulation      |
+### 🎨 Fidelity and Realism
+- Metrics: FID, IS, CLIPScore
+- Innovations: Cascaded Diffusion, Super-Resolution Decoders
+
+### 🧭 Controllability
+- Conditioning on keypoints, layout masks, textual edits (e.g., ControlNet, InstructPix2Pix)
+
+### 🌀 Temporal Consistency
+- Spatiotemporal attention, dual-stream architectures, motion diffusion (e.g., Emu, Lumiere)
+
+### ⚡ Efficiency and Scaling
+- Fast samplers (DDIM, DiT), Latent Diffusion, Modular training
+
+---
+
+## 🛠️ Applications & Evaluation
+
+- **Creative Media**: Style transfer, anime/manga generation, stylized animation
+- **Data Augmentation**: Using synthetic data for downstream vision tasks
+- **Interactive Tools**: Real-time editing, controllable character animation
+- **Benchmarks**: GenAI-Bench, VBench, EvalCrafter
+- **Challenges**: No consensus on video metrics; human evals vs. automated scores
+
+---
+
+## 🌐 Societal Impact & Future Trends
+
+### ⚖️ Ethical Concerns
+- **Bias & Representation**: Reinforcing stereotypes in generated outputs
+- **Misinformation**: Deepfakes, synthetic propaganda
+- **Copyright**: Unclear ownership of AI-generated content
+
+### 🔮 Multimodal and Future Directions
+- **Unified Any-to-Any Models**: CoDi, NExT-GPT, Chameleon
+- **Token-Level Fusion**: Bridging LLMs and Diffusion in models like Transfusion
+- **Interleaved Reasoning & Generation**: OpenLEAF, Video-LLMs
 
 ---
 
