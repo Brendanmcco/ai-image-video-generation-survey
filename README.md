@@ -144,7 +144,7 @@ We categorize modern models by **output type** and **architectural strategy**, s
 | [**DiffuSeq: Sequence to Sequence Text Generation with Diffusion Models**](https://arxiv.org/abs/2210.08933) | Shansan Gong, Mukai Li, Jiangtao Feng, Zhiyong Wu, Lingpeng Kong |
 | [**Video Diffusion Models**](https://arxiv.org/abs/2204.03458) | Jonathan Ho, Tim Salimans, Alexey Gritsenko, William Chan, Mohammad Norouzi, David J. Fleet |
 
-### 2️⃣ Image-to-Image and Conditional Generation
+### 3️⃣ Image-to-Image and Conditional Generation
 | **Title** | **Authors** |
 |-----------|-------------|
 | [**Image-to-Image Translation with Conditional Adversarial Networks (Pix2Pix)**](https://arxiv.org/abs/1611.07004) | Phillip Isola, Jun-Yan Zhu, Tinghui Zhou, Alexei A. Efros |
