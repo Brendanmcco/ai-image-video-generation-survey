@@ -35,7 +35,6 @@ Rather than a linear timeline, this survey emphasizes **conceptual transitions**
 - [🛠️ Applications & Evaluation](#-applications--evaluation)
 - [🌐 Societal Impact & Future Trends](#-societal-impact--future-trends)
 - [📚 References](#-references)
-- [📌 Citation](#-citation)
 
 ---
 
@@ -226,18 +225,3 @@ We categorize modern models by **output type** and **architectural strategy**, s
 | [**OpenLEAF: Open-Domain Interleaved Image-Text Generation and Evaluation**](https://arxiv.org/abs/2310.07749) | Jie An, Zhengyuan Yang, Linjie Li, Jianfeng Wang, Kevin Lin, Zicheng Liu, Lijuan Wang, Jiebo Luo |
 | [**A Survey on Multimodal Large Language Models**](https://arxiv.org/abs/2306.13549) | Shukang Yin, Chaoyou Fu, Sirui Zhao, Ke Li, Xing Sun, Tong Xu, Enhong Chen |
 | [**A Survey on Video Diffusion Models**](https://arxiv.org/abs/2310.10647) | Zhen Xing, Qijun Feng, Haoran Chen, Qi Dai, Han Hu, Hang Xu, Zuxuan Wu, Yu-Gang Jiang |
-
----
-
-
-## 🧠 Citation
-
-If you find this project useful, please cite our survey paper:
-
-```bibtex
-@article{your2025survey,
-  title={AI Image and Video Generation: A Survey of Models, Methods, and Challenges},
-  author={Your Name},
-  journal={arXiv preprint},
-  year={2025}
-}
