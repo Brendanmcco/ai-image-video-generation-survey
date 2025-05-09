@@ -5,9 +5,10 @@
 > *Brendan McCollum*  
 > University of Rochester
 
-<h5 align="center">
-  <strong>[📄 Paper (coming soon)](#)</strong> | <strong>[🌐 Project Page](https://github.com/Brendanmcco/ai-image-video-generation-survey.git)</strong>
-</h5>
+<h4 align="center">
+  📄 <a href="#">Paper (coming soon)</a> &nbsp;|&nbsp;
+  🌐 <a href="https://github.com/Brendanmcco/ai-image-video-generation-survey">Project Page</a>
+</h4>
 
 ---
 
